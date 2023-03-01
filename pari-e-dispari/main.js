@@ -7,9 +7,13 @@ function sommaNumeri(numUtente, numCpu){
     //alert(somma);
 }
 
+//variabile numero utente
 const numUtente = Number(prompt('Inserisci un numero da 1 a 5'));  //numero scelto dall'utente
 console.log(numUtente);
+
+//
 const numCpu = 7;
 
 const somma = sommaNumeri(numUtente, 7);
 console.log(somma);
+
