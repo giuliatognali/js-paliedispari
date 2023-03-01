@@ -3,6 +3,13 @@
 ## Chiedere all’utente di inserire una parola
 ## Creare una funzione per capire se la parola inserita è palindroma
 
+Chiedere all'utente di inserire una parola
+Creare una variabile contenente la parola dell'utente
+sfrutto le caratteristiche arraylike di una stringa.
+Identifico quindi le lettere al suo interno un ciclo for.
+faccio lo stesso con un ciclo che parte dalla fine della parola per arrivare all'inizio.
+Confronto se le due parole sono uguali, se lo sono la parola è palindroma
+
 
 
 # 2. PARI E DISPARI
