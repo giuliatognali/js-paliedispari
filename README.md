@@ -5,10 +5,10 @@
 
 Chiedere all'utente di inserire una parola
 Creare una variabile contenente la parola dell'utente
-sfrutto le caratteristiche arraylike di una stringa.
-Identifico quindi le lettere al suo interno un ciclo for.
-faccio lo stesso con un ciclo che parte dalla fine della parola per arrivare all'inizio.
-Confronto se le due parole sono uguali, se lo sono la parola è palindroma
+All'interno di una funzione creo una stringa vuota al cui interno concatenerò con un ciclo for 
+le lettere presenti nella parola utente in ordine opposto. 
+avrò quindi la parola.
+Confronto se le due parole sono uguali, se lo sono la parola è palindroma, altrimenti non è palindroma.
 
 
 

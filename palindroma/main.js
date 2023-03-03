@@ -1,22 +1,31 @@
 'use strict';
 
+/********
+FUNCTION
+********/
+function isPalindrome(variableWord) {
+    //console.log(variableWord);
+    let newWord = '';  //nuova variabile con stringa vuota
+    for(let i = variableWord.length - 1; i >=0; i--){
+    //console.log(i, variableWord[i]);
+    newWord += variableWord[i];
+    }
+    //console.log(newWord);
+    if(newWord ===variableWord){
+        console.log('la parola è palindroma')
+        alert('la parola è palindroma')
+        return true;
+    }
+    alert('la parola NON è palindroma')
+    console.log('la parola non è palindroma')
+    return false;
+
+}
+
+/*****
+MAIN
+******/ 
+
 const userWord = prompt('Inserisci una parola palindroma');
 
-console.log(userWord);
-
-
-
-for (let i = 0; i < userWord.length; i++){
-    console.log(userWord[i])
-}
-
-for (let y = userWord.length - 1 ; y > -1 ; y--){
-    console.log(userWord[y])
-
-    
-}
-/* if(userWord[i] === userWord[y]){
-    alert('la parola è PALINDROMA');
-}else {
-    alert('la parola NON è PALINDROMA');
-} */
+isPalindrome(userWord);
